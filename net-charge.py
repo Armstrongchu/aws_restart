@@ -18,7 +18,7 @@ for X in ['y','c','k','h','r','d','e']:
 print(nX) 
 print(seqCount)
 #end print
-"""
+
 pH = 0
 while (pH <= 14):
     netCharge = (
@@ -29,4 +29,3 @@ while (pH <= 14):
 
     print('{0:.2f}'.format(pH), netCharge)
     pH +=1
-    """
