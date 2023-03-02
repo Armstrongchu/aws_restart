@@ -1,6 +1,7 @@
 import jsonFileHandler
 
 data = jsonFileHandler.readJsonFile('insulin.json')
+
 if data != "" :
     bInsulin = data['molecules']['bInsulin']
     aInsulin = data['molecules']['aInsulin']
